@@ -1,0 +1,38 @@
+{
+  "name": "uc-pagefit",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "pnpm lint:function-style && pnpm lint:comments && turbo run lint",
+    "lint:function-style": "node scripts/check-function-style.mjs",
+    "lint:comments": "node scripts/check-no-comments.mjs --all",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "e2e": "pnpm --filter @uclabs/pagefit-playground e2e",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json,yaml,css}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,md,json,yaml,css}\"",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "pack:local": "pnpm build && pnpm --filter \"./packages/*\" exec pnpm pack --pack-destination ../../.packs",
+    "release": "pnpm build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.31.1",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.7.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "prettier": "^3.9.6",
+    "turbo": "^2.0.0",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.65.0",
+    "vitest": "^4.1.10"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "pnpm@10.30.0"
+}

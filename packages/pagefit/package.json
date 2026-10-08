@@ -1,0 +1,46 @@
+{
+  "name": "@uclabs/pagefit",
+  "version": "0.1.0",
+  "description": "Pixel-accurate pagination for the DOM: pack measured blocks into fixed-size pages without ever cutting a line.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "pagination",
+    "print",
+    "pdf",
+    "a4",
+    "paged-media",
+    "resume",
+    "document"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json -w",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1",
+    "typescript": "^5.0.0",
+    "vitest": "^4.1.10"
+  }
+}

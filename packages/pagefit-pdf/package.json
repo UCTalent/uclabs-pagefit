@@ -1,0 +1,51 @@
+{
+  "name": "@uclabs/pagefit-pdf",
+  "version": "0.1.0",
+  "description": "Render a pagefit document to a vector PDF with headless Chromium (bring your own browser).",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "pdf",
+    "chromium",
+    "puppeteer",
+    "pagination",
+    "print"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json -w",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@uclabs/pagefit": "workspace:^"
+  },
+  "peerDependencies": {
+    "puppeteer-core": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "puppeteer-core": "^24.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^4.1.10"
+  }
+}

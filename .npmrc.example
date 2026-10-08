@@ -1,0 +1,2 @@
+# Only needed to publish @uclabs/* to npmjs.com. Copy to .npmrc (gitignored). Never commit tokens.
+//registry.npmjs.org/:_authToken=${NPM_TOKEN}
