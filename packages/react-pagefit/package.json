@@ -1,8 +1,17 @@
 {
   "name": "@uclabs/react-pagefit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React component that lays content out as fixed-size pages (A4, Letter…) without ever cutting a line.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCTalent/uclabs-pagefit.git",
+    "directory": "packages/react-pagefit"
+  },
+  "homepage": "https://github.com/UCTalent/uclabs-pagefit/tree/main/packages/react-pagefit#readme",
+  "bugs": {
+    "url": "https://github.com/UCTalent/uclabs-pagefit/issues"
+  },
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

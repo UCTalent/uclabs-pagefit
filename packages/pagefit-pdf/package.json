@@ -1,8 +1,17 @@
 {
   "name": "@uclabs/pagefit-pdf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Render a pagefit document to a vector PDF with headless Chromium (bring your own browser).",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCTalent/uclabs-pagefit.git",
+    "directory": "packages/pagefit-pdf"
+  },
+  "homepage": "https://github.com/UCTalent/uclabs-pagefit/tree/main/packages/pagefit-pdf#readme",
+  "bugs": {
+    "url": "https://github.com/UCTalent/uclabs-pagefit/issues"
+  },
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

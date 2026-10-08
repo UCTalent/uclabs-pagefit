@@ -1,8 +1,17 @@
 {
   "name": "@uclabs/pagefit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pixel-accurate pagination for the DOM: pack measured blocks into fixed-size pages without ever cutting a line.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCTalent/uclabs-pagefit.git",
+    "directory": "packages/pagefit"
+  },
+  "homepage": "https://github.com/UCTalent/uclabs-pagefit/tree/main/packages/pagefit#readme",
+  "bugs": {
+    "url": "https://github.com/UCTalent/uclabs-pagefit/issues"
+  },
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
