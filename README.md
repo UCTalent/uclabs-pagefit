@@ -8,11 +8,11 @@ keeps headings with what follows them and splits long paragraphs _between_ lines
 result is plain HTML, the same component is your on-screen preview and, printed by headless
 Chromium, a vector PDF with selectable, searchable text.
 
-| Package                                         | What it does                                                     |
-| ----------------------------------------------- | ---------------------------------------------------------------- |
-| [`@uclabs/pagefit`](./packages/pagefit)             | Framework-agnostic pagination algorithm and DOM measurement      |
-| [`@uclabs/react-pagefit`](./packages/react-pagefit) | `<PagedDocument>` React component                                |
-| [`@uclabs/pagefit-pdf`](./packages/pagefit-pdf)     | Node helper that prints a pagefit page to PDF with your Chromium |
+| Package | What it does | Source |
+| --- | --- | --- |
+| [`@uclabs/pagefit`](https://www.npmjs.com/package/@uclabs/pagefit) | Framework-agnostic pagination algorithm and DOM measurement | [packages/pagefit](./packages/pagefit) |
+| [`@uclabs/react-pagefit`](https://www.npmjs.com/package/@uclabs/react-pagefit) | `<PagedDocument>` React component | [packages/react-pagefit](./packages/react-pagefit) |
+| [`@uclabs/pagefit-pdf`](https://www.npmjs.com/package/@uclabs/pagefit-pdf) | Node helper that prints a pagefit page to PDF with your Chromium | [packages/pagefit-pdf](./packages/pagefit-pdf) |
 
 ## Quick start
 
