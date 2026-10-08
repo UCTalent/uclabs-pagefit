@@ -4,4 +4,4 @@
 
 ### Patch Changes
 
-- Add GitHub repository metadata to the npm packages.
+- Add GitHub repository and author metadata to the npm packages.

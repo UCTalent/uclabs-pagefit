@@ -4,6 +4,6 @@
 
 ### Patch Changes
 
-- Add GitHub repository metadata to the npm packages.
+- Add GitHub repository and author metadata to the npm packages.
 - Updated dependencies
   - @uclabs/pagefit@0.1.1

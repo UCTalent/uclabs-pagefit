@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "React component that lays content out as fixed-size pages (A4, Letter…) without ever cutting a line.",
   "license": "MIT",
+  "author": "Le Quang Duy (https://github.com/lqduy)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UCTalent/uclabs-pagefit.git",

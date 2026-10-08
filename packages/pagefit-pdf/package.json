@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "Render a pagefit document to a vector PDF with headless Chromium (bring your own browser).",
   "license": "MIT",
+  "author": "Le Quang Duy (https://github.com/lqduy)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UCTalent/uclabs-pagefit.git",
